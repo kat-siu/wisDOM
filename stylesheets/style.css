@@ -11,8 +11,8 @@ body {
 
 .todo-container{
   padding: 20px;
-  width: 385px;
-  margin: 115px 350px;
+  width: 450px;
+  margin: 115px 230px;
   background: white;
   border-radius: 5px;
 }
@@ -31,8 +31,8 @@ body {
 
 .list {
   margin-top: 25px;
-  width: 270px;
-  margin-left: 80px;
+  width: 315px;
+  margin-left: 95px;
 }
 
 form {
