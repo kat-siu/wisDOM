@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+  font: normal normal 16px/19px "Open Sans", sans-serif;
+  background: url('https://www.previcus.nl/wp-content/uploads/bureau-1024x683.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+}
+
+.container{
+  padding: 20px;
+  width: 300px;
+  margin: 115px 350px;
+  background: white;
+  border-radius: 5px;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 4px 30px 4px 5px;
+}
+
+input:focus {
+    outline: none;
+    border:1px solid #EA6A6D;
+  }
+
+.submit {
+  display: inline-block;
+  background-color:#EA6A6D;
+  border: none;
+  color:#ffffff;
+  border-radius: 5px;
+  text-align:center;
+  margin-top:2px;
+  padding: 6px 15px;
+}
+
+.submit:hover {
+  cursor: pointer;
+  opacity: .9;}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;color:#000;
+}
+
+ol li:nth-child(even) {
+  background: #F3F3F3;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+ }
