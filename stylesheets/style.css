@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   float: left;
-  margin: 7px;
+  margin: 12px 7px;
   padding-right: 52px;
 }
 
@@ -41,6 +41,8 @@ form {
 
 input {
   padding: 4px 30px 4px 5px;
+  border:1px solid lightgray;
+
 }
 
 input:focus {
