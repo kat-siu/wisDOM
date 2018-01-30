@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   float: left;
-  margin: 12px 7px;
+  margin: 20px 7px;
   padding-right: 52px;
 }
 
@@ -63,7 +63,7 @@ input:focus {
 
 .submit:hover {
   cursor: pointer;
-  opacity: .9;
+  opacity: 0.8;
 }
 
 ol {
@@ -84,4 +84,13 @@ ol li:nth-child(even) {
 
 li:hover {
   cursor: pointer;
+ }
+
+ .wisDOM {
+   text-decoration: none;
+   color: #EA6A6D;
+ }
+
+ .wisDOM:hover {
+   opacity: 0.9;
  }
