@@ -12,7 +12,7 @@ wisDOM is a lightweight JavaScript library and supports some of jQuery's most im
 
 wisDOM To-Do List is a single page web application created for demoing the wisDOM library, inspired by jQuery. This app allows users to create a to-do list while also removing these items from the list once completed.
 
-<img src="https://s3.us-east-2.amazonaws.com/app-academy-portfolio/Screen+Shot+2018-01-17+at+12.47.11+AM.png" width="900">
+<img src="https://s3.us-east-2.amazonaws.com/gameshelf/Screen+Shot+2018-01-30+at+11.53.43+AM.png" width="900">
 
 
 ## wisDOM Methods
@@ -45,4 +45,3 @@ wisDOM To-Do List is a single page web application created for demoing the wisDO
 - Removes an event listener
 #### `on()`
 - Adds an event listener
-
