@@ -14,34 +14,37 @@ wisDOM To-Do List is a single page web application created for demoing the wisDO
 
 <img src="https://s3.us-east-2.amazonaws.com/gameshelf/Screen+Shot+2018-01-30+at+11.53.43+AM.png" width="900">
 
+# Getting Started
+To get started, download `lib/main.js` and `lib/dom_node_collection.js` and compile them using webpack: `webpack --watch lib/main.js lib/app_name.js` in the terminal.
 
-## wisDOM Methods
 
-### DOM Manipulation and Traversal
+# wisDOM Methods
+
+## DOM Manipulation and Traversal
 #### `addClass()`
-- Adds the specified class(es) to each `HTMLElement` in the `DOMNodeCollection`
+Adds the specified class(es) to each `HTMLElement` in the `DOMNodeCollection`
 #### `append()`
-- Insert content, specified by the parameter, to the end of each element in the `DOMNodeCollection`
+Insert content, specified by the parameter, to the end of each element in the `DOMNodeCollection`
 #### `attr()`
-- Takes in either one or two arguments, an `attributeName` and a `new_attr`. Gets or sets an attribute of the first element in the `DOMNodeCollection`
+Takes in either one or two arguments, an `attributeName` and a `new_attr`. Gets or sets an attribute of the first element in the `DOMNodeCollection`
 #### `children()`
-- Get the children of each element in the `DOMNodeCollection`
+Get the children of each element in the `DOMNodeCollection`
 #### `empty()`
-- Removes the innerHTML of all `HTMLElements` in the `DOMNodeCollection`
+Removes the innerHTML of all `HTMLElements` in the `DOMNodeCollection`
 #### `find()`
-- Get the descendants of each element in the `DOMNodeCollection`, specified by the parameter
+Get the descendants of each element in the `DOMNodeCollection`, specified by the parameter
 #### `html()`
-- Get the HTML contents of the first element in the `DOMNodeCollection`
+Get the HTML contents of the first element in the `DOMNodeCollection`
 #### `parent()`
-- Get the parent of each element in the `DOMNodeCollection`
+Get the parent of each element in the `DOMNodeCollection`
 #### `removeClass()`
-- Remove a single class, multiple classes, or all classes from each element in the `DOMNodeCollection`
+Remove a single class, multiple classes, or all classes from each element in the `DOMNodeCollection`
 #### `remove()`
-- Remove the set of matched elements of the `DOMNodeCollection` from the DOM
+Remove the set of matched elements of the `DOMNodeCollection` from the DOM
 #### `toggleClass()`
-- Add or remove one or more classes from each element in the `DOMNodeCollection`
-### Event Handlers
+Add or remove one or more classes from each element in the `DOMNodeCollection`
+## Event Handlers
 #### `off()`
-- Removes an event listener
+Removes an event listener
 #### `on()`
-- Adds an event listener
+Adds an event listener
